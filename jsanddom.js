@@ -305,3 +305,13 @@
      $("#foo #fizz .link")
      $(".bar .buzz .link")
      $("#foo .buzz .link")
+
+     //jQuery selectors for performance
+
+     $("#foo").find(".link");
+     $("#foo").find("#fizz .link");
+     $("#foo").find("#fizz a");
+     $("#foo").find(".buzz a");
+     $("#foo").find("#fizz + a");
+     $("#foo").find(".bar .buzz .link");
+     $("#foo").find(".buzz .link");
